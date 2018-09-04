@@ -10,7 +10,7 @@ idna==2.7
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
--e git+https://github.com/natederbinsky/neubanner.git@d45dfe3fe4cf722364202ac85eb448bc1f207ef3#egg=neubanner
+-e git+https://github.com/natederbinsky/neubanner.git#egg=neubanner
 requests==2.19.1
 urllib3==1.23
 Werkzeug==0.14.1
