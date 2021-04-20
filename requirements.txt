@@ -7,7 +7,7 @@ Flask==1.1.1
 future==0.18.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 -e git+https://github.com/natederbinsky/neubanner.git@2a8d67471456ebb3d569f1a72c224194a78e3691#egg=neubanner
 requests==2.22.0
