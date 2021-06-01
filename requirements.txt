@@ -12,5 +12,5 @@ MarkupSafe==1.1.1
 -e git+https://github.com/natederbinsky/neubanner.git@2a8d67471456ebb3d569f1a72c224194a78e3691#egg=neubanner
 requests==2.22.0
 soupsieve==1.9.4
-urllib3==1.25.8
+urllib3==1.26.5
 Werkzeug==0.16.0
