@@ -1,16 +1,19 @@
-beautifulsoup4==4.8.1
+beautifulsoup4==4.9.3
 bs4==0.0.1
-certifi==2019.9.11
-chardet==3.0.4
-Click==7.0
-Flask==1.1.1
-future==0.18.1
-idna==2.8
-itsdangerous==1.1.0
-Jinja2==2.11.3
-MarkupSafe==1.1.1
--e git+https://github.com/natederbinsky/neubanner.git@2a8d67471456ebb3d569f1a72c224194a78e3691#egg=neubanner
-requests==2.22.0
-soupsieve==1.9.4
+certifi==2021.5.30
+chardet==4.0.0
+click==8.0.1
+Flask==2.0.1
+future==0.18.2
+idna==2.10
+importlib-metadata==4.5.0
+itsdangerous==2.0.1
+Jinja2==3.0.1
+MarkupSafe==2.0.1
+-e git+https://github.com/natederbinsky/neubanner.git@398484fe8cbf58b2a4bcaed46847b1535d4e0e49#egg=neubanner
+requests==2.25.1
+soupsieve==2.2.1
+typing-extensions==3.10.0.0
 urllib3==1.26.5
-Werkzeug==0.16.0
+Werkzeug==2.0.1
+zipp==3.4.1
