@@ -67,14 +67,14 @@ _DAYS["F"] = "Friday"
 def _demo_search_time(slot):
 	ampm = "am" if slot < 120 else "pm"
 	slot -= 0 if slot < 130 else 120
-	m = "30" if (slot // 5) % 2 is 1 else "00"
+	m = "30" if (slot // 5) % 2 == 1 else "00"
 	h = slot // 10
 	return "{}:{} {}".format(h, m, ampm)
 
 def _demo_search_color(count, numprofs):
-	if count is 0:
+	if count == 0:
 		return ""
-	elif count is 1:
+	elif count == 1:
 		return "bg-info"
 	elif count >= numprofs/2:
 		return "bg-danger"

@@ -10,7 +10,7 @@ importlib-metadata==4.5.0
 itsdangerous==2.0.1
 Jinja2==3.0.1
 MarkupSafe==2.0.1
--e git+https://github.com/natederbinsky/neubanner.git@398484fe8cbf58b2a4bcaed46847b1535d4e0e49#egg=neubanner
+-e git+https://github.com/natederbinsky/neubanner.git#egg=neubanner
 requests==2.25.1
 soupsieve==2.2.1
 typing-extensions==3.10.0.0
